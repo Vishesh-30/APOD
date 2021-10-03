@@ -4,7 +4,7 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=LqMffyTdTaLX6kpKyN7GZYaih4jvS
         const APOD_Title = APOD_Data.title;
         const Title = document.getElementById('title')
 
-        Title.innerHTML = APOD_Title;
+        Title.innerHTML = `<h3>${APOD_Title}</h3>`;
 
         const APOD_date = APOD_Data.date;
         const date = document.getElementById('date')
