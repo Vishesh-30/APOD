@@ -15,11 +15,6 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=LqMffyTdTaLX6kpKyN7GZYaih4jvS
         myImage.innerHTML= `<img src="${ APOD_Data.hdurl}" alt="">`
 
 
-    })
-
-    fetch('https://api.nasa.gov/planetary/apod?api_key=LqMffyTdTaLX6kpKyN7GZYaih4jvSvUA1W9t9LPg')
-    .then(data => data.json())
-    .then(APOD_Data =>{
         const APOD_explanation = APOD_Data.explanation;
         const explanation = document.getElementById('explanation')
 
@@ -31,3 +26,4 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=LqMffyTdTaLX6kpKyN7GZYaih4jvS
         copyright.innerHTML = APOD_copyright;
 
     })
+
