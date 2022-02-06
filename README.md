@@ -7,3 +7,4 @@ Feedbacks are appreciated!
 This was the first project of my coding Journey!! Many more to come. 
 
 Happy Coding!
+![image](https://user-images.githubusercontent.com/72484173/152670773-8f4e14fe-4629-4cae-821a-fc323baaa55d.png)
